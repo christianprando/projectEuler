@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 
-namespace EulerProject
+namespace ProjectEuler.Problems
 {
     internal class Problem68 : IEulerProblem
     {

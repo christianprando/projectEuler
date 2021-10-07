@@ -1,4 +1,4 @@
-﻿namespace EulerProject
+﻿namespace ProjectEuler
 {
     interface IEulerProblem
     {

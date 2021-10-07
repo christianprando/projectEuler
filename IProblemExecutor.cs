@@ -1,4 +1,4 @@
-﻿namespace EulerProject
+﻿namespace ProjectEuler
 {
     internal interface IProblemExecutor
     {

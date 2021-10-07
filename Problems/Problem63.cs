@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Numerics;
 
-namespace EulerProject
+namespace ProjectEuler.Problems
 {
     internal class Problem63 : IEulerProblem
     {

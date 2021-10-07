@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Numerics;
 
-namespace EulerProject
+namespace ProjectEuler.Problems
 {
     internal class Problem62 : IEulerProblem
     {

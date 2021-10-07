@@ -2,8 +2,9 @@
 using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.Windsor;
 using Microsoft.Extensions.CommandLineUtils;
+using ProjectEuler.Problems;
 
-namespace EulerProject
+namespace ProjectEuler
 {
     public class Program
     {

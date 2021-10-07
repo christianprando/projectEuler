@@ -1,7 +1,6 @@
 ﻿using System;
-using System.Diagnostics;
 
-namespace EulerProject
+namespace ProjectEuler.Problems
 {
     internal class Problem64 : IEulerProblem
     {
