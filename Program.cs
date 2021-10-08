@@ -3,6 +3,7 @@ using Castle.MicroKernel.Resolvers.SpecializedResolvers;
 using Castle.Windsor;
 using Microsoft.Extensions.CommandLineUtils;
 using ProjectEuler.Problems;
+using ProjectEuler.Problems.Problem766;
 
 namespace ProjectEuler
 {
@@ -35,6 +36,8 @@ namespace ProjectEuler
             container.Register(Component.For<IEulerProblem, Problem67>());
             container.Register(Component.For<IEulerProblem, Problem68>());
             container.Register(Component.For<IEulerProblem, Problem69>());
+
+            container.Register(Component.For<IEulerProblem, Problem766>());
 
             container.Register(Component.For<IProblemExecutor, ProblemExecutor>());
             return container;
