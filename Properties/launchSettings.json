@@ -2,7 +2,7 @@
   "profiles": {
     "EulerProject": {
       "commandName": "Project",
-      "commandLineArgs": "-p 69"
+      "commandLineArgs": "-p 70"
     }
   }
 }
