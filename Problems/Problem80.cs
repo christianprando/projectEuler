@@ -18,7 +18,7 @@ namespace ProjectEuler.Problems
                 }
                 var partialSum = SumSquareRootDecimals(n, 100);
 
-                Console.WriteLine($"n: {n} | sum: {partialSum}");
+                //Console.WriteLine($"n: {n} | sum: {partialSum}");
 
                 sum += partialSum;
             }
