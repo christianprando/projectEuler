@@ -45,8 +45,8 @@ namespace ProjectEuler.Problems
                     a = Math.Pow(m, 2) - Math.Pow(n , 2);
                     b = 2 * m * n;
 
-                    max = a > b ? a : b;
-                    min = a > b ? b : a;
+                    max = Math.Max(a, b);
+                    min = Math.Min(a, b);
 
                     if (max > 2 * limit || min > limit)
                     {
