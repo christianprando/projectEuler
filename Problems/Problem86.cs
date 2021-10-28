@@ -56,18 +56,17 @@ namespace ProjectEuler.Problems
                     var result = AddSolutions((int)max, (int)min, limit);
                     counter += result;
 
-                    if (result != 0)
-                    {
-                        var multipliedMax = max * 2;
-                        var multipliedMin = min * 2;
+                    if (result == 0) 
+                        continue;
+                    
+                    var multipliedMax = max * 2;
+                    var multipliedMin = min * 2;
 
-                        while (multipliedMax <= 2 * limit && multipliedMin <= limit ||
-                               multipliedMin <= 2 * limit && multipliedMax <= limit)
-                        {
-                            counter += AddSolutions((int) multipliedMax, (int) multipliedMin, limit);
-                            multipliedMax += max;
-                            multipliedMin += min;
-                        }
+                    while (multipliedMax <= 2 * limit && multipliedMin <= limit)
+                    {
+                        counter += AddSolutions((int) multipliedMax, (int) multipliedMin, limit);
+                        multipliedMax += max;
+                        multipliedMin += min;
                     }
                 }
             }
