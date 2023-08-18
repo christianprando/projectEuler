@@ -54,6 +54,8 @@ namespace ProjectEuler
             container.Register(Component.For<IEulerProblem, Problem86>());
             container.Register(Component.For<IEulerProblem, Problem87>());
             container.Register(Component.For<IEulerProblem, Problem88>());
+            container.Register(Component.For<IEulerProblem, Problem89>());
+            container.Register(Component.For<IEulerProblem, Problem90>());
 
             container.Register(Component.For<IProblemExecutor, ProblemExecutor>());
             return container;
