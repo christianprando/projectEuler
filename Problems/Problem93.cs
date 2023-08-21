@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Collections.Immutable;
 using System.Linq;
-using static ProjectEuler.Problems.Problem93;
 
 namespace ProjectEuler.Problems
 {
